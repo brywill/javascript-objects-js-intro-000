@@ -1,4 +1,4 @@
-var Playlist = { tool: "undertow" };
+var playlist = { tool: "undertow" };
 
 function updatePlaylist(playlistName, artist, song) {
   return Object.assign(playlistName, { [artist]: song })
