@@ -1,4 +1,4 @@
-var playlist = { tool: undertow };
+var playlist = { tool: "undertow" };
 
 function updatePlaylist(playlist, artist, song) {
   playlist.artist = song
