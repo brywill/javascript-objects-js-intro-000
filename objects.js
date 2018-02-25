@@ -1,8 +1,7 @@
 var playlist = { tool: "undertow" };
 
 function updatePlaylist(playlist, artist, song) {
-  playlist.artist = song
-  return playlist
+  return Object.assign({}, playlist, { [artist]: song })
 }
 
 function removeFromPlaylist(playlist, artist) {
